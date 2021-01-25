@@ -31,7 +31,7 @@ export default {
     primary: '#FFFFFF',
     secondary: '#DCE2E6',
     green: '#51B853',
-    blueLight: '#DDE9F0'
+    blueLow: '#DDE9F0'
   },
 
   spacings: {
