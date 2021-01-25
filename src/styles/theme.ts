@@ -10,7 +10,7 @@ export default {
 
   font: {
     family:
-      "Lato, Abel, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans- serif",
+      "Barlow, Heebo, Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans- serif",
     sizes: {
       xsmall: '1.2rem',
       small: '1.4rem',
@@ -22,15 +22,16 @@ export default {
   },
 
   colors: {
-    primary: '#116193',
-    secondary: '#00ede7',
-    auxColor: '#ebebeb',
-    textColor: '#5e5e5e',
-    red: '#C53030',
-    white: '#FFF',
-    acqua: '#00ede7',
-    cardBackground: '#e8e8e8',
-    movieBackground: '#f2f2f2'
+    background: '#F5F8FA',
+    blue: '#115D8C',
+    orange: '#F25D27',
+    titleColor: '#123952',
+    textColor: '#617480',
+    textComplementary: '#A0ACB3',
+    primary: '#FFFFFF',
+    secondary: '#DCE2E6',
+    green: '#51B853',
+    blueLight: '#DDE9F0'
   },
 
   spacings: {
@@ -41,6 +42,14 @@ export default {
     large: '4.0rem',
     xlarge: '4.8rem',
     xxlarge: '5.6rem'
+  },
+
+  layers: {
+    base: 10,
+    menu: 20,
+    overlay: 30,
+    modal: 40,
+    alwaysOnTop: 50
   },
 
   transition: {

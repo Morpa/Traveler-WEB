@@ -1,17 +1,53 @@
 @font-face {
-  font-family: 'Abel';
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local(''),
-       url('/fonts/abel-v12-latin-regular.woff2') format('woff2')
+       url('/fonts/barlow-v5-latin-regular.woff2') format('woff2')
 }
 
 @font-face {
-  font-family: 'Lato';
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('/fonts/barlow-v5-latin-500.woff2') format('woff2'),
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(''),
+       url('/fonts/barlow-v5-latin-600.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('/fonts/barlow-v5-latin-700.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Heebo';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local(''),
-       url('/fonts/lato-v17-latin-regular.woff2') format('woff2')
+       url('/fonts/heebo-v9-latin-regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(''),
+       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2')
 }
