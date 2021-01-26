@@ -78,7 +78,7 @@ export const Bullet = styled.span`
     align-items: center;
     justify-content: space-around;
     height: 3rem;
-    font-weight: 600;
+    font-weight: ${theme.font.bold};
     padding: ${theme.spacings.small} ${theme.spacings.large};
     background: ${theme.colors.orange};
     color: ${theme.colors.primary};
