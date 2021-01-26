@@ -31,6 +31,7 @@
     "@styled-icons/bootstrap": "^10.25.0",
     "@styled-icons/boxicons-logos": "^10.23.0",
     "@styled-icons/material-outlined": "^10.26.0",
+    "beauty-stars":"https://github.com/Morpa/beauty-stars",
     "framer-motion": "^3.2.2-rc.1",
     "next": "^10.0.5",
     "next-pwa": "^5.0.4",
