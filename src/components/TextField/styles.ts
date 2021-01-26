@@ -52,4 +52,6 @@ export const Icon = styled.div<IconPositionProps>`
   `}
 `
 
-export const Wrapper = styled.div<WrapperProps>``
+export const Wrapper = styled.div<WrapperProps>`
+  min-width: min(40rem, 100%);
+`
