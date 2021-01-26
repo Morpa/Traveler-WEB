@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Spotlight /> should render correctly 1`] = `
+.c4 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 29rem;
+  background: #FFFFFF;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid #DDE9F0;
+  border-radius: 1rem 0px 0px 1rem;
+  padding: 6rem;
+}
+
+.c7 {
+  border: 1px solid #51B853;
+  border-radius: 0px 1rem 1rem 0px;
+  width: 56rem;
+  background: #f6f7f8;
+  background-image: linear-gradient( to right,#f6f7f8 0%,#edeef1 20%,#f6f7f8 40%,#f6f7f8 100% );
+  background-size: 80rem;
+  -webkit-animation: placeholderShimmer 1s linear infinite forwards;
+  animation: placeholderShimmer 1s linear infinite forwards;
+}
+
+.c7 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0px 0.9rem 0.9rem 0px;
+}
+
+.c5 {
+  font-weight: 600;
+  color: #123952;
+  font-size: 3.6rem;
+}
+
+.c6 {
+  color: #617480;
+  font-size: 1.6rem;
+  padding: 1.6rem 0;
+  font-weight: 300;
+  font-family: 'Heebo';
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-around;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  height: 3rem;
+  font-weight: 600;
+  padding: 2.4rem 4.0rem;
+  background: #F25D27;
+  color: #FFFFFF;
+  border-radius: 10rem;
+  margin-bottom: 4.0rem;
+}
+
+.c3 {
+  width: 100%;
+  margin-right: 0.8rem;
+}
+
+.c3 > svg {
+  width: 2.2rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2"
+    >
+      <span
+        class="c3"
+      >
+        <svg
+          aria-hidden="true"
+          class="c4"
+          fill="currentColor"
+          focusable="false"
+          viewBox="0 0 16 16"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 15A7 7 0 118 1a7 7 0 010 14zm0 1A8 8 0 108 0a8 8 0 000 16z"
+          />
+          <path
+            d="M7.002 11a1 1 0 112 0 1 1 0 01-2 0zM7.1 4.995a.905.905 0 111.8 0l-.35 3.507a.552.552 0 01-1.1 0L7.1 4.995z"
+          />
+        </svg>
+      </span>
+      Destaque
+    </span>
+    <h1
+      class="c5"
+    >
+      Cidade Linda
+    </h1>
+    <p
+      class="c6"
+    >
+      Um belo lugar maravilhoso que um dia eu quero que você venha conhecer
+    </p>
+  </div>
+  <div
+    class="c7"
+  >
+    <img
+      alt="Picture of Cidade Linda"
+      src="https://source.unsplash.com/user/willianjusten/"
+    />
+  </div>
+</div>
+`
