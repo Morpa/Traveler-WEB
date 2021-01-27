@@ -3,12 +3,12 @@ import { ExclamationCircle } from '@styled-icons/bootstrap/ExclamationCircle'
 import * as S from './styles'
 
 export type SpotlightProps = {
-  title: string
+  city: string
   description: string
   imageUrl: string
 }
 
-const Spotlight = ({ title, description, imageUrl }: SpotlightProps) => (
+const Spotlight = ({ city, description, imageUrl }: SpotlightProps) => (
   <S.Wrapper>
     <S.TextWrapper>
       <S.Bullet>
@@ -17,11 +17,11 @@ const Spotlight = ({ title, description, imageUrl }: SpotlightProps) => (
         </S.Icon>
         Destaque
       </S.Bullet>
-      <S.Title>{title}</S.Title>
+      <S.Title>{city}</S.Title>
       <S.Description>{description}</S.Description>
     </S.TextWrapper>
     <S.ImageWrapper>
-      <img src={imageUrl} alt={`Picture of ${title}`} />
+      <img src={imageUrl} alt={`Picture of ${city}`} />
     </S.ImageWrapper>
   </S.Wrapper>
 )

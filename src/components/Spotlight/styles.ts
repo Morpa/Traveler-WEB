@@ -33,7 +33,7 @@ export const ImageWrapper = styled.div`
       #f6f7f8 40%,
       #f6f7f8 100%
     );
-    background-size: 80rem;
+    background-size: 80rem 14rem;
     animation: placeholderShimmer 1s linear infinite forwards;
     img {
       width: 100%;
@@ -69,7 +69,7 @@ export const Description = styled.p`
       font-size: ${theme.font.sizes.medium};
       padding: ${theme.spacings.xsmall} 0;
       font-weight: ${theme.font.light};
-      font-family: 'Heebo';
+      font-family: 'Heebo', sans-serif;
     `}
 `
 export const Bullet = styled.span`

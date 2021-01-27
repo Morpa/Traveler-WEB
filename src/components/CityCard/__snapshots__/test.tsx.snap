@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CityCard /> should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 25.1rem;
+  border: 1px solid #DDE9F0;
+  border-radius: 1rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.c1 {
+  width: 25rem;
+  height: 16rem;
+  background: #f6f7f8;
+  border-radius: 0.9rem 0.9rem 0 0;
+  background-image: linear-gradient( to right,#f6f7f8 0%,#edeef1 20%,#f6f7f8 40%,#f6f7f8 100% );
+  background-size: 80rem 14rem;
+  -webkit-animation: placeholderShimmer 1s linear infinite forwards;
+  animation: placeholderShimmer 1s linear infinite forwards;
+}
+
+.c1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.9rem 0.9rem 0 0;
+}
+
+.c2 {
+  padding: 2.4rem;
+}
+
+.c2 h2 {
+  color: #123952;
+  margin-bottom: 1.6rem;
+}
+
+.c2 span {
+  font-family: 'Roboto',sans-serif;
+  color: #617480;
+}
+
+<a
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <img
+      alt="Picture of Cidade Linda"
+      src="https://source.unsplash.com/user/willianjusten/"
+    />
+  </div>
+  <div
+    class="c2"
+  >
+    <h2>
+      Cidade Linda
+    </h2>
+    <span>
+      34
+       locais
+    </span>
+  </div>
+</a>
+`

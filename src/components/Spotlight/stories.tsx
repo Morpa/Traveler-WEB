@@ -5,7 +5,7 @@ export default {
   title: 'Spotlight',
   component: Spotlight,
   args: {
-    title: 'Cidade Linda',
+    city: 'Cidade Linda',
     description:
       'Um belo lugar maravilhoso que um dia eu quero que você venha conhcecer',
     imageUrl: 'https://source.unsplash.com/user/willianjusten/'

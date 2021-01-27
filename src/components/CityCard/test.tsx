@@ -1,18 +1,17 @@
 import { screen } from '@testing-library/react'
 import { renderWithTheme } from 'utils/tests/helpers'
 
-import Spotlight from '.'
+import CityCard from '.'
 
 const props = {
   city: 'Cidade Linda',
-  description:
-    'Um belo lugar maravilhoso que um dia eu quero que você venha conhecer',
+  locals: 34,
   imageUrl: 'https://source.unsplash.com/user/willianjusten/'
 }
 
-describe('<Spotlight />', () => {
+describe('<CityCard />', () => {
   it('should render correctly', () => {
-    const { container } = renderWithTheme(<Spotlight {...props} />)
+    const { container } = renderWithTheme(<CityCard {...props} />)
 
     expect(
       screen.getByRole('heading', { name: props.city })
@@ -22,7 +21,7 @@ describe('<Spotlight />', () => {
       screen.getByRole('img', { name: `Picture of ${props.city}` })
     ).toHaveAttribute('src', props.imageUrl)
 
-    expect(screen.getByText(/destaque/i)).toBeInTheDocument()
+    expect(screen.getByText(/locais/i)).toBeInTheDocument()
 
     expect(container.firstChild).toMatchSnapshot()
   })
