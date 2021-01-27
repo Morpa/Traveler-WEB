@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ribbon /> should render the text correctly 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: absolute;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #F25D27;
+  font-size: 1.4rem;
+  padding: 0 2.4rem;
+  height: 8.3rem;
+  width: 5.6rem;
+  top: -2rem;
+  left: 3rem;
+  border-radius: 1rem;
+}
+
+.c0 > svg {
+  width: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.c0 > span {
+  font-weight: 600;
+}
+
+<div
+  class="c0"
+>
+  <svg
+    aria-hidden="true"
+    class="c1"
+    fill="currentColor"
+    focusable="false"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      fill="none"
+    >
+      <path
+        d="M0 0h24v24H0V0z"
+      />
+      <path
+        d="M0 0h24v24H0V0z"
+      />
+    </g>
+    <path
+      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27z"
+    />
+  </svg>
+  <span>
+    4.5
+  </span>
+  <div>
+    My city
+  </div>
+</div>
+`
