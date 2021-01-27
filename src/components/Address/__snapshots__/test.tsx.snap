@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Address /> should render the heading 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  border-bottom: 1px solid #DCE2E6;
+  padding: 1.6rem 0;
+}
+
+.c0 > h1 {
+  color: #123952;
+}
+
+.c0 > a {
+  margin-left: 16rem;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #A0ACB3;
+  font-family: 'Heebo',sans-serif;
+}
+
+.c1 {
+  height: 16rem;
+  width: 45rem;
+  margin-top: 3.2rem;
+}
+
+.c2 {
+  font-family: 'Heebo',sans-serif;
+  font-weight: 300;
+  margin-top: 1.6rem;
+  color: #617480;
+}
+
+<div
+  class=""
+>
+  <div
+    class="c0"
+  >
+    <h1>
+      Endereço
+    </h1>
+    <a
+      href="/"
+    >
+      Ver no Google Maps
+    </a>
+  </div>
+  <div
+    class="c1"
+  />
+  <p
+    class="c2"
+  >
+    Av. da Boavista, 850 Nevolgide, Porto - PT, 8801-290
+  </p>
+</div>
+`
