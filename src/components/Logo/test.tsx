@@ -17,4 +17,15 @@ describe('<Logo />', () => {
       width: '11rem'
     })
   })
+
+  it('should render a minimalized logo when screen mobile', () => {
+    renderWithTheme(<Logo hideOnMobile />)
+    expect(screen.getByLabelText(/traveler/i).parentElement).toHaveStyleRule(
+      'width',
+      '12rem',
+      {
+        media: '(max-width: 768px)'
+      }
+    )
+  })
 })

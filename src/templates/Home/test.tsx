@@ -3,6 +3,8 @@ import { renderWithTheme } from 'utils/tests/helpers'
 
 import Home from '.'
 
+import mockCities from './mock'
+
 jest.mock('components/CityCard', () => {
   return {
     __esModule: true,
@@ -23,7 +25,7 @@ jest.mock('components/Button', () => {
 
 describe('<Home />', () => {
   it('should render the cities and text', () => {
-    renderWithTheme(<Home />)
+    renderWithTheme(<Home cities={mockCities.slice(0, 4)} />)
 
     expect(
       screen.getByRole('heading', { name: /Viva uma grande aventura/i })
