@@ -1,13 +1,15 @@
 import { Container } from 'components/Container'
 import Button from 'components/Button'
 import Logo from 'components/Logo'
-import CityCard from 'components/CityCard'
+import CityCard, { CityCardProps } from 'components/CityCard'
 
 import * as S from './styles'
 
-import mockCities from './mock'
+export type HomeTemplateProps = {
+  cities: CityCardProps[]
+}
 
-const Home = () => (
+const Home = ({ cities }: HomeTemplateProps) => (
   <Container>
     <S.HeaderWrapper>
       <Logo />
@@ -21,8 +23,7 @@ const Home = () => (
       <S.LeftSide>
         <S.HugeText>Viva uma grande aventura</S.HugeText>
         <S.Description>
-          Descubra locais incríveis para se visitar em cidades maravilhosas de
-          Santa Catarina.
+          Descubra locais incríveis para se visitar em cidades maravilhosas!
         </S.Description>
         <Button
           size="large"
@@ -36,12 +37,12 @@ const Home = () => (
       </S.LeftSide>
       <S.RightSide>
         <S.CitiesWrapperLeft>
-          {mockCities.slice(0, 2).map((item) => (
+          {cities.slice(0, 2).map((item) => (
             <CityCard key={item.city} {...item} />
           ))}
         </S.CitiesWrapperLeft>
         <S.CitiesWrapperRight>
-          {mockCities.slice(2, 4).map((item) => (
+          {cities.slice(2, 4).map((item) => (
             <CityCard key={item.city} {...item} />
           ))}
         </S.CitiesWrapperRight>
