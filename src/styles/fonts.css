@@ -4,7 +4,7 @@
   font-weight: 400;
   font-display: swap;
   src: local(''),
-       url('/fonts/barlow-v5-latin-regular.woff2') format('woff2')
+       url('/fonts/barlow-v5-latin-regular.woff2') format('woff2'),
 }
 
 @font-face {
@@ -22,7 +22,7 @@
   font-weight: 600;
   font-display: swap;
   src: local(''),
-       url('/fonts/barlow-v5-latin-600.woff2') format('woff2')
+       url('/fonts/barlow-v5-latin-600.woff2') format('woff2'),
 }
 
 @font-face {
@@ -31,7 +31,7 @@
   font-weight: 700;
   font-display: swap;
   src: local(''),
-       url('/fonts/barlow-v5-latin-700.woff2') format('woff2')
+       url('/fonts/barlow-v5-latin-700.woff2') format('woff2'),
 }
 
 @font-face {
@@ -40,7 +40,7 @@
   font-weight: 400;
   font-display: swap;
   src: local(''),
-       url('/fonts/heebo-v9-latin-regular.woff2') format('woff2')
+       url('/fonts/heebo-v9-latin-regular.woff2') format('woff2'),
 }
 
 @font-face {
@@ -49,5 +49,5 @@
   font-weight: 400;
   font-display: swap;
   src: local(''),
-       url('../fonts/roboto-v20-latin-regular.woff2') format('woff2')
+       url('/fonts/roboto-v20-latin-regular.woff2') format('woff2'),
 }

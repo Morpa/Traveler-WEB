@@ -8,7 +8,7 @@ export default {
     city: 'Cidade Linda',
     description:
       'Um belo lugar maravilhoso que um dia eu quero que você venha conhcecer',
-    imageUrl: 'https://source.unsplash.com/user/willianjusten/'
+    imageUrl: 'https://source.unsplash.com/user/morpa/'
   }
 } as Meta
 

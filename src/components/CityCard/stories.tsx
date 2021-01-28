@@ -7,7 +7,7 @@ export default {
   args: {
     city: 'Cidade Linda',
     locals: 34,
-    imageUrl: 'https://source.unsplash.com/user/willianjusten/'
+    imageUrl: 'https://source.unsplash.com/user/morpa/'
   }
 } as Meta
 

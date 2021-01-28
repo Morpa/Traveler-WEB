@@ -4,8 +4,8 @@ export const Wrapper = styled.a`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
-    width: 25.1rem;
-    border: 1px solid ${theme.colors.blueLow};
+    width: 25.2rem;
+    border: 2px solid ${theme.colors.blueLow};
     border-radius: 1rem;
     text-decoration: none;
     cursor: pointer;
@@ -13,6 +13,7 @@ export const Wrapper = styled.a`
 `
 
 export const ImageWrapper = styled.div`
+  overflow: hidden;
   width: 25rem;
   height: 16rem;
   background: #f6f7f8;
@@ -30,7 +31,6 @@ export const ImageWrapper = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 0.9rem 0.9rem 0 0;
   }
 
   @keyframes placeholderShimmer {
