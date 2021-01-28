@@ -30,7 +30,7 @@ const Home = ({ cities }: HomeTemplateProps) => (
           color="orange"
           textColor="primary"
           as="a"
-          href="/cities"
+          href="/search"
         >
           Descobrir todos os lugares
         </Button>

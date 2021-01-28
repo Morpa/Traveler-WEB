@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components'
 
-export const Wrapper = styled.a`
+export const Wrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
     flex-direction: column;
     width: 25.2rem;
     border: 2px solid ${theme.colors.blueLow};
-    border-radius: 1rem;
+    border-radius: 2rem;
     text-decoration: none;
     cursor: pointer;
   `}
@@ -14,10 +14,9 @@ export const Wrapper = styled.a`
 
 export const ImageWrapper = styled.div`
   overflow: hidden;
-  width: 25rem;
   height: 16rem;
   background: #f6f7f8;
-  border-radius: 0.9rem 0.9rem 0 0;
+  border-radius: 1rem 1rem 0 0;
   background-image: linear-gradient(
     to right,
     #f6f7f8 0%,
@@ -35,11 +34,11 @@ export const ImageWrapper = styled.div`
 
   @keyframes placeholderShimmer {
     0% {
-      background-position: -40rem 0;
+      background-position: -39rem 0;
     }
 
     100% {
-      background-position: 40rem 0;
+      background-position: 39rem 0;
     }
   }
 `
