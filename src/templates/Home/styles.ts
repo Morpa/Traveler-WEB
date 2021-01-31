@@ -14,10 +14,6 @@ export const HeaderWrapper = styled.div`
     display: flex;
     align-items: center;
     padding: ${theme.spacings.large} 0;
-
-    ${ButtonStyles.Wrapper} {
-      font-weight: ${theme.font.bold};
-    }
   `}
 `
 

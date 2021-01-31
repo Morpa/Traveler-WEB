@@ -6,7 +6,7 @@ export const NavWrapper = styled.nav`
   ${({ theme }) => css`
     ${NavbarStyles.Wrapper} {
       padding: ${theme.spacings.xsmall};
-      justify-content: space-around;
+      justify-content: space-between;
     }
   `}
 `

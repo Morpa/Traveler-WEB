@@ -19,11 +19,17 @@ export const HeadWrapper = styled.div`
 `
 
 export const OptionsWrapper = styled.div`
-  display: flex;
-  justify-content: space-between;
-  width: 25rem;
+  ${({ theme }) => css`
+    display: flex;
+    justify-content: space-around;
+    width: 25rem;
+    border-bottom: 12px color ${theme.colors.orange};
 
-  > span {
-    font-family: 'Roboto', sans-serif;
-  }
+    > a {
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-weight: ${theme.font.bold};
+      color: ${theme.colors.orange};
+    }
+  `}
 `

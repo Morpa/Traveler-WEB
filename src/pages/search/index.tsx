@@ -1,6 +1,6 @@
 import Navbar from 'components/Navbar'
 import TextField from 'components/TextField'
-import Button from 'components/Button'
+
 import * as S from 'components/SearchPage/styles'
 
 import Search, { SearchTemplateProps } from 'templates/Search'
@@ -17,9 +17,6 @@ export default function SearchPage(props: SearchTemplateProps) {
             initialValue=""
             placeholder="Qual cidade você procura?"
           />
-          <Button as="a" href="/admin">
-            Acesso Restrito
-          </Button>
         </Navbar>
       </S.NavWrapper>
 

@@ -16,9 +16,12 @@ const Search = ({ cities }: SearchTemplateProps) => (
       <S.HeadWrapper>
         <h1>Selecione uma cidade</h1>
         <S.OptionsWrapper>
-          <span>Todas</span>
-          <span>Mais acessadas</span>
-          <span>A - Z</span>
+          <Link href="/search" passHref>
+            <a>Todas</a>
+          </Link>
+          <Link href="/search/top" passHref>
+            <a>Mais acessadas</a>
+          </Link>
         </S.OptionsWrapper>
       </S.HeadWrapper>
       <Grid>

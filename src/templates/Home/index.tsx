@@ -13,11 +13,6 @@ const Home = ({ cities }: HomeTemplateProps) => (
   <Container>
     <S.HeaderWrapper>
       <Logo />
-      <S.ButtonWrapper>
-        <Button as="a" href="/admin">
-          Acesso Restrito
-        </Button>
-      </S.ButtonWrapper>
     </S.HeaderWrapper>
     <S.HomeWrapper>
       <S.LeftSide>
